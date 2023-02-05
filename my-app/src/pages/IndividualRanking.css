@@ -1,0 +1,123 @@
+.individual-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 7px solid #BE97FF;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+}
+
+.individual-img-div {
+  display: flex;
+}
+
+.full-name-ranking {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+
+.level-text {
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.level-medal-container {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.medal-icon {
+  color: #FFE03F;
+  font-size: 19px;
+}
+
+.level-div {
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.individual-ranking-pd {
+  padding: 0 10px;
+}
+
+.yellow {
+  color: #FFE03F;
+}
+
+.score-container-two {
+  display: flex;
+  color: white;
+  background: #8f53c7d9;
+  width: 74%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 13px 5px 10px 15px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+}
+
+.levels-nums-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 9px;
+}
+
+.your-records {
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+.records-individual-container {
+  background: #7550b0a7;
+  display: flex;
+  border-radius: 50px;
+  padding: 5px;
+  margin-bottom: 13px;
+  align-items: center;
+}
+
+.game-icon-ranking {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.game-name-ind-rank {
+  color: white;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.total-score {
+  color: white;
+  margin-left: 15px;
+  font-size: 15.5px;
+}
+
+.green-number {
+  color: #78FFBE;
+  font-weight: 600;
+}

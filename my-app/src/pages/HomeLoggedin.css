@@ -1,0 +1,182 @@
+.loggedin-container {
+    padding: 2px 4px;
+}
+
+.welcome-home {
+  font-size: 26px;
+  color: white;
+}
+
+.game-img {
+  width: 100px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 37px;
+  width: 37px;
+  object-fit: cover;
+  border: 2.5px solid #be97ff;
+  margin-bottom: 7px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+}
+
+.align-image-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score-container {
+    display: flex;
+    color: white;
+    background: #8f53c7d9;
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 13px 5px 10px 15px;
+    border-radius: 25px;
+    margin-bottom: 38px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+}
+
+.score-div {
+    text-align: center;
+}
+
+.score-div-p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.score-div-num {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 4px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249);
+}
+
+.vertical-line {
+    border-left: 1px solid #F2F2F2;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+
+.highest-score-container {
+    margin-left: 13px;
+}
+
+.last-score-container {
+    margin-left: 11px;
+}
+
+.first-text {
+    color: #F2F2F2;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249);
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.game-input-two input::placeholder {
+    color: #e7e7e797;
+    font-size: 15.3px;
+    font-weight: 300;
+}
+
+.game-input-two input {
+    color: #F2F2F2;
+    font-size: 15.3px;
+}
+
+.GoSearch {
+    color: #e7e7e7;
+    margin-right: 10px;
+
+}
+
+.game-input-two {
+    background: #875dcb66;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    margin-bottom: 30px;
+    margin-top: 13px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+
+}
+
+.popular-games {
+    color: #F2F2F2;
+    font-size: 18.3px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+.home-game-container {
+    display: flex;
+    background: #aa75ff56;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 12px 12px 8.5px 12px;
+}
+
+.game-img {
+    width: 67px;
+    height: 67px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.game-name-home {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 2.5px;
+}
+
+.see-games {
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.stars {
+    margin-top: 7px;
+}
+
+.playnow-btn {
+    background: #a662e6;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 15px;
+    margin-top: 37px;
+    margin-left: 14px;
+}
+
+.icon-container {
+    display: flex;
+    background: #8f53c7d9;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 12px 10px 7px 10px;
+    margin-top: 35px;
+}
+
+.medal-icon {
+    color: white;
+    font-size: 22px;
+}
+
+.chart-icon {
+    color: white;
+    font-size: 22px;
+}

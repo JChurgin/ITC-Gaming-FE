@@ -1,0 +1,21 @@
+.modal-body {
+  background-image: url("./images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-box {
+  border-radius: 12px;
+  background-color: #d6bdff;
+  color: #130026;
+}
+
+.modal-title {
+  border-bottom: 1px solid #130026;
+}

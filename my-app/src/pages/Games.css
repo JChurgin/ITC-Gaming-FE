@@ -1,0 +1,108 @@
+.page-body {
+  padding: 30px;
+  /* background-image: url("./images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.go-back {
+  cursor: pointer;
+  color: rgb(245, 245, 245);
+}
+
+.game-title {
+  color: rgb(245, 245, 245);
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.game-input {
+  background: #875dcb66;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 8px 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+
+}
+
+.input-text {
+  background: transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+  color: rgb(245, 245, 245);
+}
+
+.input-text::placeholder {
+  color: rgb(214, 214, 214);
+  font-weight: 300;
+}
+
+.go {
+  color: rgb(214, 214, 214);
+  margin-right: 10px;
+}
+
+.game-image {
+  height: 95px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.instructions-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 2px 0;
+}
+
+.game-name {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 2.5px;
+}
+
+.instructions-btn {
+  border: none;
+  background-color: #a06be2;
+  color: white;
+  border-radius: 50px;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+
+.game-container {
+  border-radius: 10px;
+  padding: 10px;
+  background: #8255bd7f;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+
+}
+
+.second-container {
+  margin: 20px 0;
+}
+
+.black-jack-bg {
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #130026b8;
+  text-align: center;
+}
+
+.black-jack-name {
+  margin-top: 10px;
+}
+
+.lock-icon {
+  color: rgba(197, 197, 197, 0.554);
+  font-size: 70px;
+  margin-top: 10px;
+}

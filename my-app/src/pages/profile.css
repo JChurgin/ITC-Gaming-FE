@@ -1,0 +1,46 @@
+.profile-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 7px solid #BE97FF;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.088);
+}
+
+.profile-img-div {
+  display: flex;
+  margin-top: 33px;
+}
+
+.full-name-title {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 17px;
+  margin-bottom: 30px;
+}
+
+.form-control-profile {
+  font-weight: 300;
+}
+
+.edit-btn {
+  border: 5px #BE97FF solid;
+  width: 30px;
+  height: 30px;
+  background: #FDFDFD;
+  border-radius: 15px;
+  position: absolute;
+  margin-left: 188px;
+  margin-top: 95px;
+}
+
+.edit-emoji {
+  margin-left: 3.7px;
+  margin-top: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #9747FF;
+}

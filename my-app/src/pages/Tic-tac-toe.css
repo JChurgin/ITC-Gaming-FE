@@ -1,0 +1,50 @@
+.body-tic {
+    background-color: #2E0E47;
+    height: 100vh;
+}
+
+.square{
+    width:100px;
+    height:100px;
+    padding: 20px;
+    /* background-color: #130026; */
+    border-radius: 12px;
+    border: 2px #7550B0 solid;
+}
+
+.status{
+    background-color: aquamarine;
+}
+
+.tic-container{
+    padding: 20px;
+    background-color: #7550B0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.one-two-squares{
+    border-radius: 12px;
+    border: 2px #7550B0 solid;
+    flex-direction: row;
+    background-color: #130026;
+    width: 100px;
+    height: 100px;
+}
+
+.x{
+color: #CF1246;
+}
+
+.o{
+color: #FDD033;
+}
+
+.restart-btn{
+color:white;
+background-color: #7550B0;
+}
